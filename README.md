@@ -1,18 +1,14 @@
-## Getting Started
+# Comparador de Métodos de Ordenamiento
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Estudiante: Javier Barrezueta
+## Correo: jbarrezuetao@est.ups.edu.ec
 
-## Folder Structure
+El programa presenta un menú interactivo que permite al usuario:
 
-The workspace contains two folders by default, where:
+Seleccionar uno de los tres algoritmos de ordenamiento (Selección, Inserción, Burbuja).
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Elegir el orden del ordenamiento (Ascendente o Descendente).
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Decidir si desea ver el estado del arreglo después de cada paso o iteración del algoritmo.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+El programa utiliza un arreglo de enteros predefinido y, en cada ejecución, clona este arreglo para asegurar que cada algoritmo opere sobre el mismo conjunto de datos sin ordenar.
